@@ -1,0 +1,87 @@
+/*
+	Defines the standard-theme for the ftpfx-gui.
+*/
+
+/*define standard-components*/
+.root {
+	-fx-background-color:#CCFF99;
+}
+.label {
+	-fx-font-size: 12px;
+	-fx-font-family: "sans-serif";
+	-fx-fill: black;
+}
+.text {
+	-fx-font-size: 12px;
+	-fx-font-family: "sans-serif";
+	-fx-fill: black;	
+}
+.button {
+	-fx-background-color:
+	        rgba(0,0,0,0.08),
+	        linear-gradient(#9a9a9a, #909090),
+	        linear-gradient(white 0%, #f3f3f3 50%, #ececec 51%, #f2f2f2 100%);
+	    -fx-background-insets: 0 0 -1 0,0,1;
+	    -fx-background-radius: 5,5,4;
+	    -fx-padding: 3 30 3 30;
+	    -fx-text-fill: #242d35;
+	    -fx-font-size: 14px;	
+}
+.button:hover {
+		/*TODO: setup a darker theme as .button*/
+}
+.menu-bar {
+	-fx-background-color:#82c242;
+}
+#rootPane {
+	/* top, right, bottom, left */
+	-fx-padding: 10, 15, 25, 15;
+}
+#topGrid {
+	-fx-hgap: 10;
+	-fx-vgap: 10;
+}
+#fsGrid {
+	-fx-padding: 5, 0, 10, 0;
+	-fx-hgap: 10;
+	-fx-vgap: 10;
+}
+#downloadPane {
+	-fx-spacing: 10;
+	-fx-alignment: center-left;
+}
+#centeredView {
+	-fx-padding: 5, 0, 10, 0;
+}
+#bottomPane {
+	/*TODO set opacity of the tab-choosing-bg to 0% */
+}
+#connect-btn  {
+	-fx-background-color: linear-gradient(#f0ff35, #a9ff00),
+		radial-gradient(center 50% -40%, radius 200%, #b8ee36 45%, #80c800 50%);
+	-fx-background-radius: 6, 5;
+	-fx-background-insets: 0, 1;
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4), 5, 0.0, 0, 1);
+	-fx-text-fill: #395306;
+}
+#disconnect-btn {
+	-fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 6,5;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+#bold-text {
+	-fx-font-weight: bold;
+}
+
+#upload-btn {
+	-fx-font-weight: bold;
+	-fx-font-size: 11pt;
+	-fx-font-family:"sans-serif";
+}
+#download-btn {
+	-fx-font-weight: bold;
+	-fx-font-size: 11pt;
+	-fx-font-family:"sans-serif";	
+}

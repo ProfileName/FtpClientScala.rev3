@@ -1,0 +1,5 @@
+to do:
+	- de SSHFtp class heeft alle ftp opdrachten (cd,ls). kan deze class worden gebruikt?
+	- de viewfactory, ftpgui,ftpclient moeten bewerkt worden met ssh dit kan gedaan worden via de SSHFtp class of via de 
+	  sh => optie
+	
